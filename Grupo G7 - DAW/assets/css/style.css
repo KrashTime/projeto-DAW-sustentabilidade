@@ -190,6 +190,7 @@ iframe{
 }
 .content_item p{
     padding: 0px 10px;
+    text-align: justify
     
 }
 .content_item img{
@@ -224,7 +225,6 @@ form div + div {
     list-style-type: disc;
 }
 .subirtopo {
-text-decoration: none;
 bottom: 30px;
 right: 30px;
 cursor: pointer;
@@ -233,7 +233,13 @@ font-size: 15px;
 position: fixed;
 border: 0;
 }
-
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #28a368;
+    float: left;
+    margin-top: 50px;
+}
 
 
 
