@@ -4,6 +4,12 @@ body {
     font-size: 16px;
     background-color: #f1f1f1;
 }
+h1{
+    text-align: center;
+}
+iframe{
+    margin: 0px 64px;
+}
 .topo {
     width: auto;
     height: 30px;
@@ -89,7 +95,6 @@ body {
     margin-bottom: 12px;
     border-top: 1px solid #FFF;
     border-bottom: 1px solid #FFF;
-    
 }
 .menuint{
     width: 100%;
@@ -113,8 +118,7 @@ body {
 }
 .menu a{
     color: #fff;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 .menu a:hover{
     color: aqua;
@@ -138,8 +142,6 @@ body {
     margin-left: 12;
     border: 1px solid #28a368;
     box-shadow: 0px 0px 5px #000;
-
-
 }
 .widget{
     background-color: #FFF;
@@ -163,13 +165,18 @@ body {
     margin: 0px 10px;
     padding: 10px 0px;
     text-align: left;
-    border-bottom: 1px solid #28a368;
-    
+    border-bottom: 1px solid #28a368; 
 }
 .noticia_item a{
     text-decoration: none;
     color: #000;
     text-align: left;
+}
+.noticia_item a:hover{
+    color: deepskyblue;
+}
+.noticia_item a:visited{
+    background-color: darkblue;
 }
 .ladoesquerdo{
     width: 688px;
@@ -180,23 +187,20 @@ body {
     border: 1px solid #28a368;
     box-shadow: 0px 0px 8px #000;
 }
-.ladoesquerdo p {
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 18px;
-    text-align: left;
+.content_item h1, h2, h3, h4, h5, h6{
+    text-align: center; 
+}
+.content_item p{
+    padding: 0px 10px;
     
 }
-.ladoesquerdo h2, h3, h4, h5, h6{
-    margin-left: 15px;
-}
-.ladoesquerdo img{
+.content_item img{
     width: 680px;
-    height: 400px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
     margin-left: 4px;
-    margin-top: 20px;
 }
-
 .ladoesquerdo .paginasobre img{
     width: 200px;
     height: 200px;
@@ -218,7 +222,9 @@ form {
 form div + div {
     margin-top: 1em;
 }
-
+.indice ul li{
+    list-style-type: disc;
+}
 
 
 
