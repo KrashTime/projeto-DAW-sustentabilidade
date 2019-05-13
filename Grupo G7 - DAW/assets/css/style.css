@@ -79,14 +79,12 @@ iframe{
     width: 230px;
     height: 90px;
     float: left;
-    background-color: aqua;
-    margin-top: 15px;
+    margin: 10px 0px;
 }
 .topo2 .banner{
     width: 700px;
     height: 90px;
     float: right;
-    background-color: red;
     margin-top: 15px;
 }
 .menu{
