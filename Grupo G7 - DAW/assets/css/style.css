@@ -200,14 +200,16 @@ iframe{
     align-content: center;
     margin-left: 4px;
 }
-.ladoesquerdo .paginasobre img{
+.ladoesquerdo .paginasobre .content_item img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin:auto;
     margin-left: 240px;
 }
-.paginasobre h1, h2, h3{
+.paginasobre h1, h2, h3, h4{
+    text-align: center;
+}
+.ladoesquerdo .paginasobre .content_item p {
     text-align: center;
 }
 form {    
@@ -225,13 +227,13 @@ form div + div {
     list-style-type: disc;
 }
 .subirtopo {
-bottom: 30px;
-right: 30px;
-cursor: pointer;
-padding: 15px;
-font-size: 15px;
-position: fixed;
-border: 0;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 15px;
+    position: fixed;
+    border: 0;
 }
 .footer{
     width: 100%;
@@ -240,7 +242,34 @@ border: 0;
     float: left;
     margin-top: 50px;
 }
+.footerint{
+    width: 100%;
+    max-width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+.f_esq{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: #FFF;
+    vertical-align: middle;
+    float: left;
+    opacity: 15%;
 
+}
+.f_esq img{
+    margin: 8px;
+}
+
+
+.f_dir{
+    width: 60%;
+    height: 100px;
+    float: right;
+    margin-top: 25px;
+}
 
 
 
