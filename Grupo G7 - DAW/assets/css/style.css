@@ -88,8 +88,6 @@ iframe{
     margin: auto;
     height: 40px;
 }
-
-
 .menu ul{
     margin: 0;
     padding: 0;
@@ -97,20 +95,25 @@ iframe{
 }
 .menu li{
     float:left;
-    line-height: 40px;
+    line-height: 36px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 18px;
+    margin: 2px 0px;
 }
 .menu a{
     color: #fff;
     text-decoration: none; 
 }
-.menu a:hover{
-    color: aqua;
+.menuint li:hover{
+    background-color: #1acb64;
+    border-radius: 10px;
+    transition-duration: 1s;
 }
-.menu a:active{
-    color: aqua;
+.menuint li a:hover{
+    color: #000;
+    transition-duration: 1s;
+    text-shadow: 1px 1px 3px #FFF;
 }
 .containerint{
     width: 100%;
