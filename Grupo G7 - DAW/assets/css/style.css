@@ -88,8 +88,6 @@ iframe{
     margin: auto;
     height: 40px;
 }
-
-
 .menu ul{
     margin: 0;
     padding: 0;
@@ -97,20 +95,20 @@ iframe{
 }
 .menu li{
     float:left;
-    line-height: 40px;
+    line-height: 36px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 18px;
+    margin: 2px 0px;
 }
 .menu a{
     color: #fff;
     text-decoration: none; 
 }
-.menu a:hover{
-    color: aqua;
-}
-.menu a:active{
-    color: aqua;
+.menuint li:hover{
+    background-color: #1acb64;
+    border-radius: 10px;
+    
 }
 .containerint{
     width: 100%;
