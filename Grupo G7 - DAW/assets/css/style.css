@@ -34,24 +34,12 @@ iframe{
     float: right;
     margin-top: 2px;
 }
-.topodireito ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    
-}
-.topodireito li{
-    float: left;
-    line-height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;    
-}
 .topodireito li a{
     text-decoration: none;
     color:#FFF;
 }
 .topodireito a{
-    float: right;
+    float: left;
 }
 .topodireito img{
     margin-right: 3px;
